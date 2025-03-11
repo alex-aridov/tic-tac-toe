@@ -7,7 +7,7 @@
 
 ### Summary:
 * The application works on the basis of heart beat.
-* When first successful synchronisation using heart beat is reached, instances determine who is the first to step, using double comparison 
+* When first successful synchronisation using heart beat is reached, instances determine who is the first to step, using id comparison 
 * Each beat application check if it should do next step
 * I suppose the only way to lose synchronization is connection fail
 * I suppose the only one instance can connect to this instance
