@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RequiredArgsConstructor
-@RestController("/api")
+@RestController
 public class Controller {
     private final SynchronisationService synchronisationService;
     private final StateService stateService;

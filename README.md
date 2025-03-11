@@ -4,6 +4,8 @@
 * set environment variable `URL=localhost:8081` with URL of another application instance 
 * set port `-Dserver.port=8081`
 * run app
+* to get field status use `GET http://localhost:8081/field` request
+* application writes to console steps and game result
 
 ### Summary:
 * The application works on the basis of heart beat.
